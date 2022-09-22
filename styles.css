@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(196, 255, 206);
+    background-image:url(sport.jpg);
+    background-size:cover;
     color:black;
     border:7px solid rgb(212, 7, 7);
     margin:5%;
@@ -14,7 +15,7 @@ nav li {
 
 header {
     background-color:rgb(56, 212, 121);
-    border:7px solid blue;
+    border:7px solid lightblue;
     height: 150px;
 }
 
@@ -40,13 +41,16 @@ h2 {
 }
 
 .lower-section {
+    color:aliceblue;
     border:7px darkblue;
-    display: inline-block;
+    display: inline;
+    text-align: left;
 }
 .lower-section2 {
+    color:aliceblue;
     border:7px darkblue;
-    display: inline-block;
-    text-align: inline start;
+    display: inline;
+    text-align: right;
 }
 
 .lower-section2 img {
@@ -56,9 +60,10 @@ h2 {
 
 .lower-section img {
     border: 5px solid blueviolet;
-    float:inline-end;
+    float:left;
 }
 
 footer{
+    color:aliceblue;
     border:7px solid green;
 }
