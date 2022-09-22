@@ -29,25 +29,29 @@ h2 {
 
 #top-section {
     border:7px solid rgb(224, 167, 167);
-    text-align: right;
+    text-align: inline start;
+    height: 300px;
 }
 
 #top-section img {
-    width: 600px;
-    float:inline-start;
+    width: 400px;
+    float: right;
     border:2px solid black;
 }
 
 .lower-section {
     border:7px darkblue;
-    max-width: 100%;
     display: inline-block;
+}
+.lower-section2 {
+    border:7px darkblue;
+    display: inline-block;
+    text-align: inline start;
 }
 
 .lower-section2 img {
-    max-width: 100%;
-    border: 5px solid blueviolet;
-    float:inline-end;
+    border: 5px solid darkblue;
+    float:right;
 }
 
 .lower-section img {
