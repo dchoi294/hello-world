@@ -19,3 +19,7 @@ if (guessNumb != 2) {
 }
 
 confirm("Enjoy the site!");
+
+function makeImage() {
+    
+}

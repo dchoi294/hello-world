@@ -8,24 +8,40 @@ body {
 
 nav li {
     display:inline-block;
+    color: white;
     width: 100px;
     margin-top: 5px;
     font-size: 20px;
 }
 
+
 header {
-    background-color:rgb(56, 212, 121);
+    color:white;
+    background-image:url(swim.jpg);
+    background-size:cover;
     border:7px solid lightblue;
-    height: 150px;
+    height: 200px;
 }
 
 h1 {
+    color:white;
     font-size: 50px;
 }
 
 h2 {
     font-size: 20px;
     color:brown;
+}
+
+h3 {
+    font-size: 20px;
+    color:black;
+    text-align: right;
+}
+
+h4{
+    font-size: 20px;
+    color:white;
 }
 
 #top-section {
@@ -42,24 +58,23 @@ h2 {
 
 .lower-section {
     color:aliceblue;
-    border:7px darkblue;
+    
     display: inline;
     text-align: left;
 }
 .lower-section2 {
     color:aliceblue;
-    border:7px darkblue;
+    
     display: inline;
     text-align: right;
 }
 
 .lower-section2 img {
-    border: 5px solid darkblue;
+    border:1px solid white;
     float:right;
 }
 
 .lower-section img {
-    border: 5px solid blueviolet;
     float:left;
 }
 
